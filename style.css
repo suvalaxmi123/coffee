@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body, html{
+    scroll-behavior: smooth;
+}
+
+.whole{
+    height:100vh;
+    background-image: linear-gradient(346deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 22%,rgba(140, 140, 140,0.04) 22%, rgba(140, 140, 140,0.04) 69%,rgba(225, 225, 225,0.04) 69%, rgba(225, 225, 225,0.04) 100%),linear-gradient(31deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 42%,rgba(140, 140, 140,0.04) 42%, rgba(140, 140, 140,0.04) 85%,rgba(225, 225, 225,0.04) 85%, rgba(225, 225, 225,0.04) 100%),linear-gradient(55deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 13%,rgba(140, 140, 140,0.04) 13%, rgba(140, 140, 140,0.04) 72%,rgba(225, 225, 225,0.04) 72%, rgba(225, 225, 225,0.04) 100%),linear-gradient(90deg, #3a1c0e,#412314);
+}
+
+
+.custom-shape-divider-top-1711779397 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711779397 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 242px;
+}
+
+.custom-shape-divider-top-1711779397 .shape-fill {
+    fill: rgb(250, 220, 225);
+}
+
+/* for toogle button */
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 32px;
+    left: 19px;
+}
+button img{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.whole-img img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 778px;
+    top: 10px;
+
+}
+ul, li img{
+   height: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+}
+  li p{
+    height: 20px;
+    width: 20px;
+    padding: 17px;
+    background-color: rgb(189, 185, 185);
+    border-radius: 50%;
+    position: relative;
+    right: 60px;
+    bottom: 25px;
+    border: 2px solid #000;
+    transition: 0.999;
+}
+
+  li h3{
+    height: 20px;
+    width: 100px;
+    padding: 9px;
+    background-color: rgb(189, 185, 185);
+    border-radius: 10px;
+    font-size: 15px;
+    position: relative;
+    left: 26px;
+    bottom: 15px;
+    border: 2px solid #000;
+    transition: 0.999;
+}
+li h4 {
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li h3:hover, li p:hover {
+    background-color: rgb(250, 220, 225);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container img{
+  height: 300px;
+  width: 300px;
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 10px #2c2813);
+position: relative;
+top: 100px;
+left: 900px;
+background: transparent;
+}
+.main h1{
+    position: relative;
+    top: 80px;
+   right: 200px;
+   color: rgb(201, 236, 235);
+   text-transform: capitalize;
+   font-size: 45px;
+   font-family: gabriela;
+}
+.main p{
+    position: relative;
+    top: 80px;
+   right: 200px;
+ 
+}
+.click{
+    display: flex;
+    flex-direction: row;
+    
+}
+.main .button{
+    height: 20px;
+    width: 100px;
+    padding: 10px;
+    margin: 40px;
+    position: relative;
+    top: 80px;
+   right: 200px;
+ border: 2px solid #fff;
+ transition: 0.99;
+filter: drop-shadow(5px 5px 5px #000000);
+}
+.main .button:hover{
+    background-color: #fff;
+    border: 2px solid #000000;
+    color: black;
+
+}
+
+
+
+.about{
+    height: 100vh;
+    width: 100%;
+}
+.pic img{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 100px;
+    filter: drop-shadow(10px 10px 10px #414040);
+    transition: 0.99;
+}
+.pic img:hover{
+    transform: rotate(10deg);
+}
+.pic-1 img{
+    height: 70vh;
+    position: relative;
+    bottom:60px;
+    left: 60px;
+
+}
+.pic-1{
+    display: flex;
+    flex-direction: row;
+}
+.pic-1 span{
+    margin-left: 150px;
+    margin-right: 40px
+}
+
+.pic-1 span button{
+height: 40px;
+width: 120px;
+color: #4e4a0c;
+margin-top: 50px;
+border-radius: 10px;
+font-size: 15px;
+border: 2px solid #4d460e;
+filter: drop-shadow(5px 5px 5px #464444);
+}
+.pic-1 span button:hover{
+    color: #ffffff;
+    border: 2px solid #19073a;
+    background-color: #272203;
+}
+.pic-1 h1{
+    color: rgb(73, 66, 22);
+    text-transform: capitalize;
+    font-size: 45px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.pic-1 p{
+    margin-top: 50px;
+}
+
+
+/* menu */
+
+
+.menu h1{
+    color: rgb(8, 78, 49);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 45px;
+}
+.img-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-card{
+    height: 250px;
+    width: 30%;
+    background-color: #19073a;
+    margin: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    filter: drop-shadow(10px 10px 10px #4d4848);
+
+}
+.menu-card img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+.content{
+    position: absolute;
+    bottom: -110px;
+    left: 20px;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+.menu-card:hover .content{
+    bottom: 25px;
+}
+.menu-card:hover img{
+    filter: brightness(0.1);
+}
+.content span{
+    height: 45px;
+    width: 100px;
+    background-color: #00000000;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.content span:hover{
+    background-color: rgba(255, 255, 255, 0.705);
+    color: black;
+    border: none;
+}
+
+.specialist{
+    height: 65vh;
+    margin-top: 100px;
+    background-color: rgb(250, 220, 225);
+    display: flex;
+}
+.specialist_img img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 20px;
+     filter: drop-shadow(10px 10px 10px #524e4e);
+}
+.specialist h1{
+    color: rgb(61, 85, 18);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+
+}
+.specialist p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.specialist-button p{
+    font-size: 18px;
+    margin: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+.specialist-button{
+height: 39px;
+width: 100px;
+background-color: #272203;
+border-radius: 5px;
+color: white;
+}
+.specialist-contents{
+    display: flex;
+    justify-content: space-evenly;
+}
+.specialist-content1 , 
+.specialist-content2 {
+    margin-left: 100px;
+}
+.specialist-boxes{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 100px;
+   margin-top: 40px;
+}
+.specialist-boxes .box{
+    height: 100px;
+    width: 100px;
+    background-color: #24160f;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 10px #524e4e);
+    object-fit: cover;
+}
+.specialist-boxes .box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.specialist .arrow img{
+    height: 25px;
+    width: 25px;
+    background-color: #818080af;
+    border-radius: 50px;
+    padding: 8px;
+    margin-top: 30px;
+    transition: 0.999;
+}
+.specialist .arrow img:hover{
+    background-color: #818080;
+}
+
+
+
+footer{
+    height: 60vh;
+    width: 100%;
+color: white;
+background-image: linear-gradient(346deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 22%,rgba(140, 140, 140,0.04) 22%, rgba(140, 140, 140,0.04) 69%,rgba(225, 225, 225,0.04) 69%, rgba(225, 225, 225,0.04) 100%),linear-gradient(31deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 42%,rgba(140, 140, 140,0.04) 42%, rgba(140, 140, 140,0.04) 85%,rgba(225, 225, 225,0.04) 85%, rgba(225, 225, 225,0.04) 100%),linear-gradient(55deg, rgba(55, 55, 55,0.04) 0%, rgba(55, 55, 55,0.04) 13%,rgba(140, 140, 140,0.04) 13%, rgba(140, 140, 140,0.04) 72%,rgba(225, 225, 225,0.04) 72%, rgba(225, 225, 225,0.04) 100%),linear-gradient(90deg, #271811,#24160f);
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.section h1{
+    color: white;
+    text-align: left;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.section h3{
+    font-size: 17px; 
+}
+.icon img{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+
+.icon{
+
+    display: flex;
+    gap: 20px;
+}
+
+.border{
+    margin-top: 110px;
+    border-bottom: 3px solid #fff;
+}
+footer span p{
+     text-align: center;
+     margin-top: 20px;
+}
+
+/* our team */
+.team{
+    height: 90vh;
+    background-color:  rgb(250, 220, 225);
+    margin-top: 80px;
+}
+.team-members{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+  .team-member {
+    height: 70vh;
+    width: 20vw;
+    border: 1px solid #f1f1f1;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    filter: drop-shadow(10px 10px 10px #524e4e);
+
+  }
+  .team-member img{
+  height: 200px;
+  width: 20vw;
+  object-fit: cover;
+
+  }
+  .pictures{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .team-member h2{
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .team-member1 h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: chocolate;
+  }
+  .team-member2 h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(12, 51, 95);
+  }
+  .team-member3 h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(89, 102, 17);
+  }
+   .team-member p{
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+   .down{
+    height: 50px;
+    width: 100vw;
+    margin-top: 18px;
+    display: flex;
+   }
+     .team-member1 .down{
+    background-color: chocolate;
+  }
+  .team-member2 .down{
+    background-color: rgb(12, 51, 95);
+  }
+  .team-member3 .down{
+    background-color: rgb(89, 102, 17);
+  }
+  .down img{
+    height: 35px;
+    width: 35px;
+    margin-left: 25px;
+    margin-top: 8px;
+  }
+
+
+  @media only screen and (max-width:333px){
+    .whole{
+        height:100vh;
+        width: 333px;
+    }
+    .custom-shape-divider-top-1711779397 {
+        width: 0px;
+    }
+    ul, li img{
+        display: none;
+    }
+    li p{
+        height: 14px;
+        width: 14px;
+        padding: 15px;
+    }
+    .main h1{
+       right: 250px;
+       font-size: 30px;
+    }
+    .main p{
+       right: 270px;
+       width: 280px;     
+    }
+    .main .button{
+        height: 20px;
+        width: 80px;
+        padding: 10px;
+        margin: 20px;
+        position: relative;
+        top: 80px;
+       right: 300px;
+    }
+    .pic-1 span{
+        margin-left: 40px;
+        margin-right: 0px
+    }
+    .pic-1 img{
+        height: 30vh;
+        position: relative;
+        bottom:60px;
+        left: 60px;
+    
+    }
+    .pic img{
+        height: 65px;
+        width: 65px;
+        margin-left: 10px;
+        margin-top: 75px;
+    }
+    .pic-1 img{
+        height: 30vh;
+        bottom:60px;
+        top: 25px;
+        left: 10px;    
+    }
+    .pic-1 h1{
+        color: rgb(73, 66, 22);
+        text-transform: capitalize;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .pic-1 p{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .pic-1 span button{
+        height: 25px;
+        width: 80px;
+        margin-top: 20px;
+        font-size: 13px;
+
+    }
+    .menu h1{
+        font-size: 25px;
+    }
+    .img-list{
+        display:contents;
+    }
+    .menu-card{
+        height: 250px;
+        width: 92%;
+    }
+    .team{
+        height: 200vh;
+        background-color:  rgb(250, 220, 225);
+    }
+    .team-members{
+        display: contents;
+    }
+    .team-member {
+        height: 70vh;
+        width: 100vw;
+    }
+    .team-member img{
+        height: 200px;
+        width: 100vw;
+    }
+    .down{
+        height: 58px;
+        width: 100vw;
+        margin-top: 40px;
+
+    }
+    .down img{
+        height: 35px;
+        width: 35px;
+    }
+    footer{
+        margin-top: 200px;
+        height: 110vh;
+        width: 330px;
+    }
+    .section{
+        display: contents;
+    }
+    .section h1{
+        color: white;
+        text-align: left;
+        font-size: 25px;
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .section h3{
+        font-size: 15px;
+        margin-left: 110px;
+    }
+    .icon img{
+        margin-top: 5px;
+        margin-left: 5px;
+        height: 30px;
+        width: 30px;
+    }
+    
+    
+    .icon{
+    
+        display: flex;
+        gap: 9px;
+        margin-left: 75px;
+    }
+    footer span p{
+        font-size: 13px;
+   }
+   .specialist{
+    height: 105vh;
+    background-color: rgb(250, 220, 225);
+    margin-top: 0px;
+    display: contents;
+   }
+   .specialist_img img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 60px;
+    margin-left: 0px;
+   }
+   .specialist-contents{
+    display: contents;
+}
+.specialist p, .specialist-button{
+    font-size: 14px;
+    margin-top: 15px;
+    position: relative;
+    right: 60px;
+}
+.specialist h1{
+    margin-top: 15px;
+    position: relative;
+    right: 60px;
+}
+.specialist-button p{
+    font-size: 14px;
+    margin-top: 15px;
+    position: relative;
+    right: 0px;
+    left: 10px;
+    top: 5px;
+}
+.specialist-boxes{
+    margin-left: 10px;
+ }
+ .specialist-boxes .box, .specialist-boxes .box img{
+    height: 60px;
+    width: 60px;
+ }
+ .specialist .arrow img{
+    height: 13px;
+    width: 13px;
+    margin-top: 20px;
+
+ }
+
+  }
